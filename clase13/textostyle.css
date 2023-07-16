@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Bacasime+Antique&display=swap');
+*{
+    margin: 0;
+}
+@font-face {
+    font-family:Lobster-Regular ;
+    src: url('fuente/Lobster-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: tristeza;
+    src: url('fuente/Nostalgia.otf') format('OpenType');
+}
+#titulo1{
+    text-shadow: 5px -5px 2px #aaa;
+    font-family: 'tristeza'
+}
+#titulo2{
+    text-shadow: -5px -5px 5px #aaa;
+    
+}
+#titulo3{
+    text-shadow: 3px 3px 5px #f00,6px 6px 5px #0f0, 9px 9px 5px #00f;
+    font-family: 'Lobster-Regular';
+}
+h1 {
+    font-size: 50px;
+}
+#titulo2{
+    font-family: 'Bacasime Antique',serif;
+}
+body{
+    background-color: white;
+    margin: 70px;
+}
